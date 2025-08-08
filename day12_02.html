@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>리액트 연습02</title>
+    <style>
+        .tit {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
+    <h1 class="tit">F12를 클릭한 후 콘솔 창에서 callBread1 1-4 를 입력해보세요.</h1>
+
     <script>
         // 클래스(개념, 기획서, 빵틀)
         class Bread {
@@ -15,7 +22,7 @@
             constructor(source) {
                 this.source = source
             }
-            present(){
+            present() {
                 return `${this.source}빵 드세요`
             }
         }

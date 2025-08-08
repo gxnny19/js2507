@@ -1,4 +1,4 @@
-const person = {
+const person1 = {
     myName : "경건이",
     age : 21,
     eyeColor : "black"
